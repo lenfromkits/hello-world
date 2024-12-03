@@ -1,0 +1,23 @@
+{
+  "name": "@lenfromkits/hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "ES6",
+  "target": "ES6",
+  "scripts": {
+    "deploy": "tsc && npm publish --access public",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.5.5",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
